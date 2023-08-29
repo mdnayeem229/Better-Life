@@ -1,0 +1,34 @@
+.barber-2{
+    margin-top: 2rem;
+}
+.hormone h2{
+    color: #7CA7AD;
+    font-size: 35px;
+    text-align: center;
+}
+.hormone p{
+    font-size: 15px;
+    color: #837f7f;
+    line-height: 1.8em;
+    text-align: justify;
+}
+.mainSlider{
+padding-top: 1rem;
+background: #7CA7AD;
+}
+.carou1{
+    width: 60%;
+    margin: 2rem auto;
+    text-align: center;
+}
+.carou1 h2{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+}
+.carou1 p{
+    color: #fff;
+    color: #fff;
+    line-height: 1.7em;
+    font-size: 1rem;
+}

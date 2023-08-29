@@ -1,0 +1,40 @@
+.patient-feedback-1 img{
+    height: 500px;
+    width: 100%;
+}
+.threapy h4{
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+}
+.threapy small{
+    font-size: 10px;
+}
+.threapy p{
+    text-align: center;
+    color: #837f7f;
+    font-size: 15px;
+    line-height: 1.8em;
+}
+.frequent{
+    background: none;
+    border-bottom: 2px solid #7CA7AD;
+}
+.frequent h4{
+    font-size: 16px;
+    color: #666;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.frequent i{
+    float: right;
+    font-size: 15px;
+}
+.frequent h4:hover{
+    background: none;
+    color: none;
+}
+.threapy1{
+    padding-bottom: 2rem;
+}

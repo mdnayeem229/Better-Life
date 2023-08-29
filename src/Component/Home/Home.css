@@ -1,0 +1,48 @@
+.main-header{
+background-image:linear-gradient(rgba(0,0,0,0.1), #7CA7AD), url(../images/images/optimize-wellness-better-life-carolinas.jpg);
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 100vh;
+position: relative;
+}
+.header1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header1 img{
+    width: 500px;
+}
+.header1 h2{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 700;
+}
+@media only screen and (max-width:771px){
+    .main-header{
+        height: 600px;
+        width: 100%;
+    }
+    .header1 img{
+        width: 300px;
+    }
+    .header1 h2{
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width:551px){
+    .main-header{
+        height: 500px;
+        width: 100%;
+    }
+    .header1 img{
+        width: 300px;
+    }
+    .header1 h2{
+        font-size: 1.5rem;
+    }
+}
+

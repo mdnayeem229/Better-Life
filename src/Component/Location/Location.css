@@ -1,0 +1,43 @@
+.Location{
+    margin-top: 4rem;
+}
+.location{
+    text-align: center;
+    }
+    .location h2{
+        font-size: 35px;
+        color: #7CA7AD;
+    }
+    .location p{
+        font-size: 15px;
+        line-height: 1.8em;
+        color: #837f7f;
+    }
+    .location-1{
+        text-align: center;
+    }
+    .location-1 h2{
+        padding-top: 10px;
+        color: #7CA7AD;
+        font-size: 35px;   
+    }
+    .location-1 p{
+        line-height: 1.8em;
+        color: #837f7f;
+        font-size: 15px;
+        margin-bottom: -2px;
+    }
+    .location-1 h4{
+        font-size: 15px;
+        color: #666;
+        font-weight: bold;
+    }
+    .location-1 span{
+        font-size: 15px;
+        color: #837f7f;
+        line-height: 1.8em;
+    }
+    .location-1 img{
+    border-radius: 50%;
+    width: 50%;
+    }

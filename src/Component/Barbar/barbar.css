@@ -1,0 +1,39 @@
+.makes{
+    margin-top: 5rem;
+}
+
+.barber-1 img{
+    width: 100%;
+}
+
+.barber h2{
+    font-size: 35px;
+    color: #7CA7AD;
+}
+.barber h3{
+    font-size: 20px;
+    color: #666;
+    padding-bottom: 20px;
+}
+.barber p{
+    font-size: 15px;
+    color: #837f7f;
+    line-height: 1.8em;
+    text-align: justify;
+}
+.barber-link{
+    text-align: center;
+    padding-top: 20px;
+}
+.barber-link button{
+    background: #7CA7AD;
+    padding: 7px 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.barber-2 img{
+    width: 100%;
+}

@@ -1,0 +1,683 @@
+*{
+    padding:0;
+    margin:0;
+    border:none;
+    outline:none;
+    box-sizing: border-box;
+    font-family:  "Lucida Grande", sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: linear 1s;
+}
+:root{
+    --bg-color:#000;
+    --body-color:#fff;
+    --primary-color:#7CA7AD;
+}
+/*----------body start-----------*/
+body{
+    background-color:var(--body-color);
+    color:var(--bg-color);
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding: .9rem;
+}
+/*-----------nav start-----------*/
+nav{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background: var(--body-color);
+    padding: 20px;
+}
+.main-nav span{
+    font-size: 20px;
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin:0px auto;
+}
+.main-nav ul{
+flex: 1;
+text-align: right;
+}
+.main-nav ul li{
+    display: inline;
+    list-style: none;
+    position: relative
+}
+.main-nav ul li a{
+    color: #837f7f;
+    font-size: 15px;
+    padding:10px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.main-nav ul li a:hover{
+    color: rgb(158, 154, 154);
+}
+.listmenu-link{
+    display: none;
+}
+.main-nav ul li:hover .listmenu-link{
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    background-color:#fff;
+}
+.listmenu-link ul{
+    display: block;
+    margin: 20px;
+}
+.listmenu-link ul li a{
+    line-height: 2em;
+}
+.menu{
+    position:fixed;
+    height: 20px;
+width: 20px;
+top:30px;
+right: 20px;
+display: none;
+cursor: pointer;
+}
+/*-----------nav end-----------*/
+/*-----------top to scrollbar start-----------*/
+.to-top{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    background: var(--bg-color);
+    bottom: 20px;
+    right: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+opacity: 0;
+pointer-events: none;
+transition: 0.5s;
+z-index: 100;
+color: var(--primary-color);
+}
+.to-top i{
+    color: #fff;
+}
+.to-top i:hover{
+    background: none;
+}
+.to-top.active{
+    opacity: 1;
+    bottom: 32px;
+    pointer-events: auto;
+}
+
+/*----------top to bottom scrollbar end-----------*/
+.middle-nav-1{
+    background: #dcdcdc;
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+.middle-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 30px;
+    margin: 0px auto;
+}
+.middle{
+    display: block;
+}
+.middle p{
+    font-size: 15px;
+    color: #837f7f;
+    font-weight: bold;
+}
+.middle span{
+    color: rgb(209, 137, 43);
+    margin-left: 10px;
+}
+.middle-1 a{
+    text-decoration: none;
+    color: #666;
+    margin-left: 15px;
+    font-size: 17px;
+}
+/*-----------------main-header-----------*/
+.header-1{
+    background:linear-gradient(rgba(0,0,0,0.1), #7CA7AD), url(images/optimize-wellness-better-life-carolinas.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    top:0;
+    overflow-x: hidden;
+}
+.header{
+    text-align: center;
+    padding-top: 200px;
+}
+.header h2{
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+/*-----------------carousel slider-----------*/
+.carousel-cell img{
+    height: 300px;
+    width: 100%;
+}
+.carousel-cell::before{
+    display: block;
+}
+/*-----------------future hold-----------*/
+.main-future{
+    text-align: center;
+}
+.main-future img{
+    width: 300px;
+    height: 150px;
+    text-align: center;
+}
+.main-future h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color:#666;
+}
+.main-future p{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.8em;
+    color: #837f7f;
+}
+/*-----------------request an apointment-----------*/
+.request h2{
+    color: #7CA7AD;
+}
+.request p{
+    text-align: center;
+}
+.main-request{
+    box-shadow: 3px 0 0px 3px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+.request-1{
+    padding-left: 25px;
+}
+.request-1 input{
+    box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.5);
+    font-size: 15px;
+    align-items: center;
+    padding: 12px;
+    display: inline;
+    margin-right: 20px;
+    width: 17%;
+}
+.request-1 input:hover{
+    border:2px solid #000;
+}
+.request-link{
+    background: #7CA7AD;
+    text-align: center;
+    width: 18%;
+    padding: 14px;
+    color: #fff;
+}
+.request-2 input{
+border: 1px solid gainsboro;
+display: inline;
+}
+.main-request-2 img{
+    width: 100%;
+height: 500px;
+}
+/*-------------meet dr. barber---------*/
+.barber-1 img{
+    width: 100%;
+}
+
+.barber h2{
+    font-size: 35px;
+    color: #7CA7AD;
+}
+.barber h3{
+    font-size: 20px;
+    color: #666;
+    padding-bottom: 20px;
+}
+.barber p{
+    font-size: 15px;
+    color: #837f7f;
+    line-height: 1.8em;
+    text-align: justify;
+}
+.barber-link{
+    text-align: center;
+    padding-top: 20px;
+}
+.barber-link button{
+    background: #7CA7AD;
+    padding: 7px 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.barber-2 img{
+    width: 100%;
+   height: 500px;
+}
+/*-----------------hormone replacement-----------*/
+.hormone h2{
+    color: #7CA7AD;
+    font-size: 35px;
+    text-align: center;
+}
+.hormone p{
+    font-size: 15px;
+    color: #837f7f;
+    line-height: 1.8em;
+    text-align: justify;
+}
+/*-------------patient feedback---------*/
+.car{
+    background: #7CA7AD;
+    color: #fff;
+    width: 100%;
+    height: 300px;
+position: relative;
+z-index: 0;
+}
+.carous{
+   padding-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.8em;
+    background: #7CA7AD;
+}
+.carous-1{
+    background: #7CA7AD;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.8em;
+}
+.carous-link h4{
+    position: absolute;
+top: 120px;
+left: 20px;
+font-size: 40px;
+color: #fff;
+
+}
+.carous-link-1 h4{
+    position: absolute;
+top: 120px;
+right: 20px;
+font-size: 40px;
+color: #fff;
+}
+.carous-1 p{
+    line-height: 1.8em;
+    font-size: 16px;
+    text-align: center;
+}
+/*-------------patient feedback---------*/
+.patient-feedback-1 img{
+    height: 500px;
+    width: 100%;
+}
+.threapy h4{
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+}
+.threapy small{
+    font-size: 10px;
+}
+.threapy p{
+    text-align: center;
+    color: #837f7f;
+    font-size: 15px;
+    line-height: 1.8em;
+}
+.frequent{
+    background: none;
+    border-bottom: 2px solid #7CA7AD;
+}
+.frequent h4{
+    font-size: 16px;
+    color: #666;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.frequent i{
+    float: right;
+    font-size: 15px;
+}
+.frequent h4:hover{
+    background: none;
+    color: none;
+}
+/*-------------better boost---------*/
+.boost{
+    text-align: center;
+}
+.boost img{
+    height: 200px;
+    width: 200px;
+}
+.boost-1 p{
+    text-align: justify;
+    color: #837f7f;
+    font-size: 15px;
+    line-height: 1.8em;
+}
+.boost-1 h4{
+    text-align: center;
+    color: #0083C2;
+    font-size: 15px;
+    line-height: 1.8em;
+    font-weight: bold;
+}
+.boost-link{
+    text-align: center;
+    padding-top: 10px;
+}
+.boost-link button{
+    background:#FAA21C;
+    padding: 7px 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.boost-2 img{
+    height: 500px;
+    width: 100%;
+}
+/*-------------location---------*/
+.location{
+text-align: center;
+}
+.location h2{
+    font-size: 35px;
+    color: #7CA7AD;
+}
+.location p{
+    font-size: 15px;
+    line-height: 1.8em;
+    color: #837f7f;
+}
+.location-1{
+    text-align: center;
+}
+.location-1 h2{
+    padding-top: 10px;
+    color: #7CA7AD;
+    font-size: 35px;   
+}
+.location-1 p{
+    line-height: 1.8em;
+    color: #837f7f;
+    font-size: 15px;
+    margin-bottom: -2px;
+}
+.location-1 h4{
+    font-size: 15px;
+    color: #666;
+    font-weight: bold;
+}
+.location-1 span{
+    font-size: 15px;
+    color: #837f7f;
+    line-height: 1.8em;
+}
+/*------------footer---------*/
+.age{
+    width: 100%;
+    height: 400px;
+    background: #7CA7AD;
+    text-align: center;
+    color: #fff;
+}
+.age img{
+    padding-top: 100px;
+    width: 300px;
+    height: 250px;
+}
+.age h2{
+    font-size: 35px;
+}
+.age-link{
+    padding-top: 10px;
+}
+.age-link a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin: 0px 20px;
+}
+.age-link a:hover{
+    color: #fff;
+}
+.age-link i{
+    margin-right: 10px;
+    font-size: 15px;
+}
+.fotter{
+    width: 100%;
+    background: #837f7f;
+    padding: 10px;
+    text-align: center;
+}
+.fotter p{
+    padding-top: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.footer{
+    background: #000;
+    padding: 10px;
+    text-align: center;
+}
+.footer p{
+    font-size: 12px;
+    color: #fff;
+    padding-top: 10px;
+}
+.footer label{
+    font-size: 15px;
+    color: #666;
+}
+.footer select{
+    background: #fff;
+    padding:5px 70px 5px 0px;
+    border-radius: 10px;
+}
+/*-----------------position-----------*/
+.position{
+    position:fixed;
+    right:20px;
+    bottom: 20px;
+    background: #FAA21C;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+}
+.position p{
+    color: #fff;
+    text-align: center;
+    margin-top: 2px;
+}
+/*-------------@media queary---------*/
+
+@media only screen and (max-width:991px){
+    .header-1{
+    height: 600px;
+    }
+    .header img{
+        width: 60%;
+        margin-top: -40px;
+    }
+    .header h2{
+        font-size: 30px;
+    }
+    .main-nav ul{
+        position:absolute;
+        height: 540px;
+        width:100%;
+        background:linear-gradient(rgba(0,0,0,0.1), #7CA7AD);
+        top:80px;
+        right: 0px;
+        overflow: hidden;
+    }
+    .main-nav ul li a{
+        color: #fff;
+    }
+    .middle{
+        display: none;
+    }
+    .middle-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+    .menu{
+        display: block;
+    }
+    .main-nav ul li{
+        display: block;
+        text-align: center;
+        line-height: 2em;
+        font-size: 20px;
+    }
+    .main-nav ul li:hover{
+        width: 0%;
+    }
+    .main-request{
+        box-shadow: none;
+    }
+    .request-1 input{
+    
+        margin-top: 20px;
+    }
+    .request-2{
+        display: none;
+    }
+.request-link{
+    margin-top: 10px;
+    width: 30%;
+    font-size: 15px;
+}
+.main-future h2{
+    font-size: 30px;
+}
+.position p{
+    font-size: 14px;
+}
+.main-request-2 img{
+    width: 100%;
+    height: 400px;
+    margin-top: -100px;
+}
+
+.barber-2 img{
+    height: 400px;
+}
+.patient-feedback-1 img{
+    height: 400px;
+}
+.carous-2{
+   margin-top: -50px;
+}
+.boost-2 img{
+    height: 400px;
+}
+.age h2{
+    font-size: 20px;
+}
+.age-link{
+    display: block;
+}
+}
+@media only screen and (max-width:771px){
+.request-1 input{
+    display: block;
+width: 70%;
+}
+.main-request-2 img{
+    width: 100%;
+    height: 300px;
+}
+.barber-2 img{
+    height: 300px;
+}
+.patient-feedback-1 img{
+    height: 300px;
+}
+.boost-2 img{
+    height: 300px;
+}
+.main-future p{
+  padding:0px 20px;
+}
+.makes{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
+
+@media only screen and (max-width:550px){
+    .header h2{
+        font-size: 18px;
+    }
+    .header-1{
+        height: 400px;
+        }
+        .header img{
+            width: 60%;
+            margin-top: -90px;
+        }
+    .main-request-2 img{
+        width: 100%;
+        height: 200px;
+    }
+    .barber-2 img{
+        height: 200px;
+    }
+    .patient-feedback-1 img{
+        height: 300px;
+    }
+    .boost-2 img{
+        height: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
