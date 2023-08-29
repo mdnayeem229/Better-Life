@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Better-Life/static/css/main.e11ae63f.css",
+    "main.js": "/Better-Life/static/js/main.04daf887.js",
+    "static/js/787.ec704a7a.chunk.js": "/Better-Life/static/js/787.ec704a7a.chunk.js",
+    "static/media/drmickeyprofilesmcircle.png": "/Better-Life/static/media/drmickeyprofilesmcircle.dbe7654ca9b2848a4679.png",
+    "static/media/appointmentrequest-ig.jpg": "/Better-Life/static/media/appointmentrequest-ig.b8c0b3d81e91a3222566.jpg",
+    "static/media/BL_Homepage_31-1280x586.jpg": "/Better-Life/static/media/BL_Homepage_31-1280x586.cf2d4501c6a2d359f170.jpg",
+    "static/media/optimize-wellness-better-life-carolinas.jpg": "/Better-Life/static/media/optimize-wellness-better-life-carolinas.f2fc6d5908920877152c.jpg",
+    "static/media/BL_Homepage_17.jpg": "/Better-Life/static/media/BL_Homepage_17.1a9734358bb527fefd66.jpg",
+    "static/media/regenerativeheadernew-1280x586.jpg": "/Better-Life/static/media/regenerativeheadernew-1280x586.bcb1b4f39aafdd55457b.jpg",
+    "static/media/hormone-replacement-doctor-mickey-barber-1280x586.jpg": "/Better-Life/static/media/hormone-replacement-doctor-mickey-barber-1280x586.741658e6359da9674c1c.jpg",
+    "static/media/better-life-carolinas-precision-program-btn.jpg": "/Better-Life/static/media/better-life-carolinas-precision-program-btn.b2a1d9d4a494465626f0.jpg",
+    "static/media/gainswave-btn (1).jpg": "/Better-Life/static/media/gainswave-btn (1).11399b0274fba589922d.jpg",
+    "static/media/BL_WhiteReversed_Hrz_Lg-768x431.png": "/Better-Life/static/media/BL_WhiteReversed_Hrz_Lg-768x431.93b9fbd93c043aab47c8.png",
+    "static/media/viveve-provider-charleston-better-life-carolinas.jpg": "/Better-Life/static/media/viveve-provider-charleston-better-life-carolinas.b653558fc0b3febbd19e.jpg",
+    "static/media/BL_WhiteReversed_Hrz_Lg-e1573168840349.png": "/Better-Life/static/media/BL_WhiteReversed_Hrz_Lg-e1573168840349.10a0cadff824b67163b4.png",
+    "static/media/BL_Homepage.jpg": "/Better-Life/static/media/BL_Homepage.7ab0bb2efda796ea896a.jpg",
+    "static/media/BL_Homepage5.jpg": "/Better-Life/static/media/BL_Homepage5.ce7aae796a21c84c99a0.jpg",
+    "static/media/slick.svg": "/Better-Life/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Better-Life/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Better-Life/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Better-Life/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Better-Life/index.html",
+    "main.e11ae63f.css.map": "/Better-Life/static/css/main.e11ae63f.css.map",
+    "main.04daf887.js.map": "/Better-Life/static/js/main.04daf887.js.map",
+    "787.ec704a7a.chunk.js.map": "/Better-Life/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e11ae63f.css",
+    "static/js/main.04daf887.js"
+  ]
+}
